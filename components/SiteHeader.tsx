@@ -5,6 +5,7 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/blogs", label: "Blogs" },
   { href: "/reading_list.html", label: "My Reading List", external: true },
+  { href: "/resume/resume.pdf", label: "Resume", external: true, newTab: true },
   { href: "/contact", label: "Contact" },
   { href: "/about", label: "About" },
 ];
@@ -52,6 +53,9 @@ export default function SiteHeader({ showHero = false }: Props) {
               key={item.href}
               href={item.href}
               className="opacity-80 hover:opacity-100 no-underline"
+              {...(item.newTab
+                ? { target: "_blank", rel: "noopener noreferrer" }
+                : {})}
             >
               {item.label}
             </a>

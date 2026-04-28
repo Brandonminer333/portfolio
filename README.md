@@ -21,7 +21,7 @@ Open <http://localhost:3000>.
 
 ## Project structure
 
-```
+```plaintext
 app/
 ├── layout.tsx                # Root layout (the white card, footer)
 ├── page.tsx                  # Home (project grid)

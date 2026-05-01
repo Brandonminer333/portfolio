@@ -4,7 +4,11 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/blogs", label: "Blogs" },
-  { href: "/reading_list.html", label: "My Reading List", external: true },
+  {
+    href: "/reading_list.from-yaml.html",
+    label: "My Reading List",
+    external: true,
+  },
   { href: "/resume/resume.pdf", label: "Resume", external: true, newTab: true },
   { href: "/contact", label: "Contact" },
   { href: "/about", label: "About" },

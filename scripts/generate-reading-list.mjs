@@ -171,9 +171,9 @@ const html = `<!doctype html>
   <main role="main">
     <p class="subtitle">Ranked by helpfulness to a data scientist / ML engineer</p>
 
-${toReadHtml}
-
 ${currentlyReadingHtml}
+
+${toReadHtml}
 
 ${finishedHtml}
 

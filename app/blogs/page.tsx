@@ -20,6 +20,21 @@ export default function BlogsPage() {
             <ProjectCard key={project.title} project={project} />
           ))}
         </div>
+
+        <section className="mt-10 rounded-2xl border border-(--border) bg-(--surface) p-6">
+          <h2 className="text-xl font-semibold mb-3">PDF Resources</h2>
+          <p className="text-sm leading-relaxed text-(--muted) mb-4">
+            Open the ethics blog as a PDF.
+          </p>
+          <a
+            href="/blogs/ethics-blog.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-(--text) underline opacity-90 hover:opacity-100"
+          >
+            ethics-blog.pdf
+          </a>
+        </section>
       </main>
     </>
   );

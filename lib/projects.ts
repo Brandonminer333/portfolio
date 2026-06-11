@@ -2,20 +2,11 @@ import type { Project } from "@/components/ProjectCard";
 
 export const apps: Project[] = [
   {
-    title: "California Grape ETL Pipeline",
-    description:
-      "A Streamlit GCP app that extracts, transforms, and loads California wine grape data web scraped from a government website.",
-    image: "/images/grapes.png",
-    href: "https://streamlit-dashboard-189778219066.europe-west1.run.app/",
-    external: true,
-    cta: "Check it out",
-  },
-  {
     title: "Semantic Personality Quiz",
     description:
       "An interactive web-based personality quiz that determines which Pokémon gym leader type best matches your personality using vector-based matching and semantic similarity algorithms.",
     image: "/images/quiz.jpg",
-    href: "https://Brandonminer333.github.io/sematic-personality-quiz",
+    href: "https://sematic-personality-quiz.vercel.app/",
     external: true,
     cta: "Take the Quiz",
   },
